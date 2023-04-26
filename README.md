@@ -5,7 +5,7 @@ This repo contains terraform scripts to roll out AWS infrastructure to deploy sa
 ## Steps:
  * Install Terraform CLI from [here](https://developer.hashicorp.com/terraform/downloads)
  * Rename `terraform.example.tfvars` to `terraform.tfvars` and provide credentials.
- * Run `terraform init` the `terraform apply`.
+ * Run `terraform init` then `terraform apply`.
 
 To see private key, use: 
  `terraform output private_key`
